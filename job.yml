@@ -1,0 +1,4 @@
+# Add this to your job.yml under 'environment'
+environment:
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
+  conda_file: conda.yml # or just use the default Scikit-learn env if you prefer
